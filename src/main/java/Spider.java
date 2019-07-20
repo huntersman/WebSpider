@@ -7,8 +7,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
  */
 public class Spider {
     public static void main(String[] args) {
-        String path="WebSpider\\src\\main\\resources\\chromedriver.exe";
         //设置WebDriver路径
+        String path="src/main/resources/chromedriver.exe";
         System.setProperty("webdriver.chrome.driver", path);
         //创建WebDriver
         WebDriver  webDriver=new ChromeDriver();
